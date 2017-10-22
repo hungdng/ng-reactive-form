@@ -5,12 +5,14 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { AppComponent } from './app.component';
 import { RfContactComponent } from './rf-contact/rf-contact.component';
 import { SearchComponent } from './search/search.component';
+import { SignupRformComponent } from './signup-rform/signup-rform.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RfContactComponent,
-    SearchComponent
+    SearchComponent,
+    SignupRformComponent
   ],
   imports: [
     BrowserModule,
